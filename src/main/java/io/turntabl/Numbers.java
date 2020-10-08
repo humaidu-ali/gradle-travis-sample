@@ -5,11 +5,11 @@ public class Numbers {
         return greaterThanZero(i) && lessThanAThousand(i);
     }
 
-    private static boolean greaterThanZero(int i){
+    private static boolean grea terThanZero(int i){
         return i > 0;
     }
 
-    private static boolean lessThanAThousand(int i){
+    private static boolean lessT hanAThousand(int i){
         return i < 1000;
     }
 }
